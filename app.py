@@ -2,7 +2,7 @@
 
 from aws_cdk import core
 
-from seanfischer.io.seanfischer.io_stack import SeanfischerIoStack
+from seanfischerio.seanfischerio_stack import SeanfischerIoStack
 
 
 app = core.App()
