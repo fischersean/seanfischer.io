@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/fischersean/seanfischer.io#readme",
   "devDependencies": {
-    "eslint": "^7.21.0"
-  },
-  "dependencies": {
+    "eslint": "^7.21.0",
     "prettier": "^2.2.1"
   }
 }
