@@ -19,18 +19,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-  
-      # Setup python
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-
-      - name: Install Dependencies
-        run: |
-          pip3 install -r requirements.txt
-        shell: bash
-        
+      
       - name: cdk deploy
         uses: youyo/aws-cdk-github-actions@v2
         with:
