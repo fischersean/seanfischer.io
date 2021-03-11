@@ -55,4 +55,5 @@ jobs:
         
       - name: Deploy Stack
         run: cdk deploy
+        shell: bash
         
