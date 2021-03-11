@@ -45,6 +45,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install aws-cdk
+          alias cdk=node_modules/.bin/cdk
           cdk --version
           pip3 install -r requirements.txt
         shell: bash
