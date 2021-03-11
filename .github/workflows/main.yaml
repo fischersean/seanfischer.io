@@ -1,4 +1,4 @@
-pname: CDK Deploy
+name: CDK Deploy
 
 # Controls when the action will run. 
 on:
