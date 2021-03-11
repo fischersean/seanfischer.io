@@ -1,0 +1,25 @@
+{
+  "name": "seanfischer.io",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fischersean/seanfischer.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fischersean/seanfischer.io/issues"
+  },
+  "homepage": "https://github.com/fischersean/seanfischer.io#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
+}

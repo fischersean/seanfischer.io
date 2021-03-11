@@ -1,5 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
 body {
-    vertical-align: middle;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
+  display: table;
+  margin: auto;
+  vertical-align: middle;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+#socials {
+  flex-direction: row;
+}
+
+span.social {
+  font-size: 20pt;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+header {
+  height: 10em;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50pt;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
