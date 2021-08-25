@@ -33,7 +33,7 @@ class SeanfischerIoStack(core.Stack):
             certificate=certificates.Certificate.from_certificate_arn(
                 self,
                 "DomainCertificateEast1",
-                "arn:aws:acm:us-east-1:261392311630:certificate/15ea562f-d269-4d75-ade0-ff70c3076495",
+                "arn:aws:acm:us-east-1:261392311630:certificate/859dc9d1-7a5f-4474-bcad-bcba1607a5ed",
             ),
             default_root_object="index.html",
             default_behavior=cloudfront.BehaviorOptions(
